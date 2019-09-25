@@ -34,7 +34,9 @@
 
 Figure from: https://www.ubuntupit.com/wp-content/uploads/2018/11/Most-Popular-Programming-Languages.jpg
 
-![1569351507071](figures\1569351507071.png)
+![1569351507071](figures/1569351507071.png)
+
+
 
 
 
@@ -65,7 +67,9 @@ It provides tools for *writing code, compiling and building the program and debu
 
 ## User Interface 
 
-![1569348487515](figures\1569348487515.png)
+![1569348487515](figures/1569348487515.png)
+
+
 
 
 
@@ -73,7 +77,9 @@ It provides tools for *writing code, compiling and building the program and debu
 
 * Project Explorer
 
-  ![1569348386213](figures\1569348386213.png)
+  ![1569348386213](figures/1569348386213.png)
+
+  
 
   
 
@@ -83,7 +89,9 @@ It provides tools for *writing code, compiling and building the program and debu
 
 * Code Editor
 
-  ![1569348513992](figures\1569348513992.png)
+  ![1569348513992](figures/1569348513992.png)
+
+  
 
   
 
@@ -91,7 +99,9 @@ It provides tools for *writing code, compiling and building the program and debu
 
 * Teaching Codes Plug-in
 
-  ![1569348537826](figures\1569348537826.png)
+  ![1569348537826](figures/1569348537826.png)
+
+  
 
   
 
@@ -99,7 +109,9 @@ It provides tools for *writing code, compiling and building the program and debu
 
 * Console
 
-  ![1569348574235](figures\1569348574235.png)
+  ![1569348574235](figures/1569348574235.png)
+
+  
 
   
 
@@ -107,8 +119,10 @@ It provides tools for *writing code, compiling and building the program and debu
 
 * Toolbar
 
-  ![1569348604330](figures\1569348604330.png)
+  ![1569348604330](figures/1569348604330.png)
 
+  
+  
   
   
   
