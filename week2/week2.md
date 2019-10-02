@@ -34,8 +34,10 @@ int main()
 
 * Printf function is able to display *strings and variables*.
 
-  ![1569961731136](C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1569961731136.png)
+  ![1569961731136](figures/1569961731136.png)
 
+  
+  
   
 
 ------
