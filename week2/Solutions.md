@@ -107,7 +107,7 @@ int main() {
 	m = (sec%3600)/60;
 	s = sec%60;
     
-    printf("H:M:S - %d:%d:%d\n",h,m,s);
+    	printf("H:M:S - %d:%d:%d\n",h,m,s);
 	return 0;
 }
 ```
