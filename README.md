@@ -15,5 +15,5 @@ This repository contains notes of Cmpe150.03 lab sessions.
 ### Repositories of other sections
 
 * [Cmpe150.01](https://github.com/hkmztrk/Cmpe150)  
-* [Cmpe150.02](https://suyunu/c-notes)
+* [Cmpe150.02](https://github.com/suyunu/c-notes)
 
