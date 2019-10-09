@@ -14,13 +14,21 @@
 
 * Examples
 
-  * ![1570300391805](C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1570300391805.png)
+  * ![1570300391805](figures/1570300391805.png)
 
-    ![1570300492161](C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1570300492161.png)
+    
 
-  * ![1570300588514](C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1570300588514.png)
+    ![1570300492161](figures/1570300492161.png)
 
-    ![1570300636310](C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1570300636310.png)
+    
+
+  * ![1570300588514](figures/1570300588514.png)
+
+    
+
+    ![1570300636310](figures/1570300636310.png)
+
+    
 
     
 
@@ -33,21 +41,33 @@
 
 ## Warnings 
 
-* ![1570300699622](C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1570300699622.png)
+* ![1570300699622](figures/1570300699622.png)
 
   
 
-  ![1570300750532](C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1570300750532.png)
+  
 
-* ![1570300948268](C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1570300948268.png)
-
-  ![1570300973481](C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1570300973481.png)
-
-* ![1570302473710](C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1570302473710.png)
+  ![1570300750532](figures/1570300750532.png)
 
   
 
-  ![1570302539152](C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1570302539152.png)
+* ![1570300948268](figures/1570300948268.png)
+
+  
+
+  ![1570300973481](figures/1570300973481.png)
+
+  
+
+* ![1570302473710](figures/1570302473710.png)
+
+  
+
+  
+
+  ![1570302539152](figures/1570302539152.png)
+
+  
 
 ### Warm up
 
@@ -152,7 +172,11 @@ output: 24.66
 
     ![](https://cdn.shopify.com/s/files/1/1014/5789/files/Standard-ASCII-Table_large.jpg?10669400161723642407)
 
+    
+
     ![](https://cdn.shopify.com/s/files/1/1014/5789/files/Extended-ASCII-Table_large.jpg?14948660931384897703)
+
+    
 
   - Letters and digits are consecutive. 
 
