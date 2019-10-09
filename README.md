@@ -1,6 +1,8 @@
 # Cmpe150 - Fall 2019
 
-This repository contains notes of Cmpe150.03 lab sessions.  
+This repository contains notes of Cmpe150.03 lab sessions. 
+
+Bogazici University, CMPE150 (Introduction to Computing C) 
 
 ### [Week 1](week1/)
 
