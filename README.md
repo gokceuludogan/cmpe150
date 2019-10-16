@@ -14,6 +14,16 @@ Bogazici University, CMPE150 (Introduction to Computing C)
 * Floats
 * Getting Input
 
+### [Week3](week3/) 
+
+* Errors
+* Chars
+* Operators
+
+### [Week4](week4/)
+
+* Conditional Statements
+
 ### Repositories of other sections
 
 * [Cmpe150.01](https://github.com/hkmztrk/Cmpe150)  
