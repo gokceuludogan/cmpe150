@@ -79,79 +79,82 @@ output: 40
   }
     ```
 
-    How can we end up in an infinite loop?
+  
 
-  #### Question 3
-
+  
+How can we end up in an infinite loop?
+  
+#### Question 3
+  
   ##### a.
-
+  
   Write a program that takes an integer as input and computes the sum of positive integers up to that integer using while loops. 
   
   ```
   input: 3
-  output: 6
+output: 6
   
-  input: 5
-output: 15
-  ```
-
+input: 5
+  output: 15
+```
+  
   ##### b.
-
+  
   Write a program that takes an integer as input and computes the sum of positive odd integers up to that integer using while loops. 
   
   ```
   input: 3
-  output: 4
+output: 4
   
-  input: 5
-output: 9
-  ```
-
+input: 5
+  output: 9
+```
+  
   #### Question 4
-
+  
   Write a program which reads an integer (smaller than 1000000) then prints out how many of the digits are odd numbers.
   
   ``` 
   input: 16283 
-  output: 2
+output: 2
   
-  input: 15672
-output 3
-  ```
-
+input: 15672
+  output 3
+```
+  
   ## do-while loops
-
+  
   First statement is executed, then expression is evaluated. 
   
-  ```c
+```c
   do
-  	<statement>
-while (<boolean_expression>);
-  ```
-
-  <img src="figures/1571760221894.png" alt="1571760221894" style="zoom:50%;" />
-
+	<statement>
+  while (<boolean_expression>);
+```
+  
+<img src="figures/1571760221894.png" alt="1571760221894" style="zoom:50%;" />
   
 
   
-
+  
+  
   #### Question 5
   
   Write a program that take integers as inputs until the user enters negative number and show the maximum number entered by user.
   
-  ````
+````
   input: 8 3 0 105 18
-  output: 105
-
+output: 105
+  
   input: 75 7 1 5 39 45 67
 output: 75
   ````
-  
-#### pre/post increment/decrement operators: a++, ++a, a--, --a
-  
-* Pre increment/decrement: first increases/decreases value, then use it
-  * Post increment/decrement: first uses the value, then increases/decreases
 
+  #### pre/post increment/decrement operators: a++, ++a, a--, --a
+
+  * Pre increment/decrement: first increases/decreases value, then use it
+  * Post increment/decrement: first uses the value, then increases/decreases
+  
   ## References
   
-  https://www.cs.cmu.edu/~mrmiller/15-110/
+https://www.cs.cmu.edu/~mrmiller/15-110/
