@@ -76,11 +76,8 @@ output: 40
     while (i < n) { // test
     	printf("*"); 
     	i++; //update
-  }
+    }
     ```
-
-  
-
   
 How can we end up in an infinite loop?
   
