@@ -87,36 +87,36 @@ How can we end up in an infinite loop?
   
   Write a program that takes an integer as input and computes the sum of positive integers up to that integer using while loops. 
   
-  ```
-  input: 3
+```
+input: 3
 output: 6
-  
+
 input: 5
-  output: 15
+output: 15
 ```
   
   ##### b.
   
   Write a program that takes an integer as input and computes the sum of positive odd integers up to that integer using while loops. 
   
-  ```
-  input: 3
+```
+input: 3
 output: 4
-  
+
 input: 5
-  output: 9
+output: 9
 ```
   
   #### Question 4
   
   Write a program which reads an integer (smaller than 1000000) then prints out how many of the digits are odd numbers.
   
-  ``` 
-  input: 16283 
+``` 
+input: 16283 
 output: 2
-  
+
 input: 15672
-  output 3
+output 3
 ```
   
   ## do-while loops
@@ -124,9 +124,9 @@ input: 15672
   First statement is executed, then expression is evaluated. 
   
 ```c
-  do
+do
 	<statement>
-  while (<boolean_expression>);
+while (<boolean_expression>);
 ```
   
 <img src="figures/1571760221894.png" alt="1571760221894" style="zoom:50%;" />
@@ -140,12 +140,12 @@ input: 15672
   Write a program that take integers as inputs until the user enters negative number and show the maximum number entered by user.
   
 ````
-  input: 8 3 0 105 18
+input: 8 3 0 105 18
 output: 105
   
-  input: 75 7 1 5 39 45 67
+input: 75 7 1 5 39 45 67
 output: 75
-  ````
+````
 
   #### pre/post increment/decrement operators: a++, ++a, a--, --a
 
