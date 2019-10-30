@@ -24,6 +24,14 @@ Bogazici University, CMPE150 (Introduction to Computing C)
 
 * Conditional Statements
 
+### [Week5](week5/) 
+
+* Repetition (while, do while)
+
+### [Week6](week6/)
+
+* Repetition (for)
+
 ### Repositories of other sections
 
 * [Cmpe150.01](https://github.com/hkmztrk/Cmpe150)  
