@@ -10,7 +10,9 @@ for (<initialize>; <boolean_expression>; <update>){
 }
 ```
 
-<img src="C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1571761472620.png" alt="1571761472620" style="zoom:50%;" />
+<img src="figures/1571761472620.png" alt="1571761472620" style="zoom:50%;" />
+
+
 
 
 
@@ -22,7 +24,7 @@ for (<initialize>; <boolean_expression>; <update>){
 
 
 
-#### Question
+#### Question 1
 
 Write a program that takes two characters from user and displays characters between these.
 
@@ -31,7 +33,7 @@ input: a e
 output: a b c d e
 ```
 
-#### Question
+#### Question 2
 
 Write a program which reads a positive integer number N , and prints the Nth fibonacci number. *0, 1, 1, 2, 3, 5, ...* 
 
@@ -42,7 +44,7 @@ input: 6
 output: 5
 ```
 
-#### Question
+#### Question 3
 
 Write a program which reads two integers N and M then prints a rectangle with size NxM which has stars (*) at borders, and lines (-) inside.
 
@@ -54,7 +56,7 @@ output:
 *****
 ```
 
-#### Question
+#### Question 4
 
 Write a program which takes an integer N as input and prints a right triangle which consists of N many lines
 
@@ -67,9 +69,7 @@ input: 5
     *
 ```
 
-
-
-#### Question
+#### Question 5
 
 ##### a.
 
