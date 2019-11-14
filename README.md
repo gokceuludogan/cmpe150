@@ -1,6 +1,6 @@
 # Cmpe150 - Fall 2019
 
-This repository contains notes of Cmpe150.03 lab sessions. 
+This repository contains notes of Cmpe150.02 and Cmpe150.03 lab sessions. 
 
 Bogazici University, CMPE150 (Introduction to Computing C) 
 
@@ -31,9 +31,11 @@ Bogazici University, CMPE150 (Introduction to Computing C)
 ### [Week6](week6/)
 
 * Repetition (for)
+### [Week7-8](week7-8/)
+* Functions
 
 ### Repositories of other sections
 
-* [Cmpe150.01](https://github.com/hkmztrk/Cmpe150)  
-* [Cmpe150.02](https://github.com/suyunu/c-notes)
+* [https://github.com/hkmztrk/Cmpe150](https://github.com/hkmztrk/Cmpe150)  
+* [https://github.com/suyunu/c-notes](https://github.com/suyunu/c-notes)
 
