@@ -41,7 +41,7 @@
 
   #### Question 1
 
-  * Write a function takes three integers as parameters and returns maximum among them. Then, call this function in main() function with the following inputs and print outputs.
+  * Write a function **find_max()** which takes three integers as parameters and returns **maximum** among them. Then, call this function in main() function with the following inputs and print corresponding outputs.
 
   * ```
     input: 5, 3, 8
@@ -106,7 +106,7 @@
 
   #### Question 2
 
-  Write a function named **to_upper** which takes a char as input, and returns the upper case version of the character if it is a lower case letter. Otherwise it should return the same character.
+  Write a function **to_upper()** which takes **a char** as input, and returns the upper case version of the character if it is a lower case letter. Otherwise it should return the same character.
 
   Then write a program which reads a word from the user, and prints it with upper case characters. Assume valid words will be given.
 
@@ -117,9 +117,9 @@
 
   #### Question 3
 
-  Write a function that takes an integer as a parameter and computes the factorial of that integer.
+  Write a function **factorial()** that takes an integer as a parameter and computes the factorial of that integer.
 
-  Write a program to compute the summation of each digits' factorial using factorial function.
+  Then, write a program to compute the summation of each digits' factorial using factorial function.
 
   ```c
   input: 43
@@ -128,7 +128,7 @@
 
   #### Question 4
 
-  Write a function **is_prime()** that checks whether the given number is prime. The function returns 1 if the number is prime and returns 0 otherwise. Then write a program which takes an integer and prints all of its prime divisors.  Use  **is_prime()** function. 
+  Write a function **is_prime()** that checks whether the given number is prime. The function returns 1 if the number is prime and returns 0 otherwise. Then write a program which takes an integer and prints all of its prime divisors. 
 
   ```
   input: 12
@@ -171,6 +171,3 @@
 #### Question 5
 
 Write a function **find_min_max()** which takes three integers and two pointers as parameters and sets the max and min of these three integers to addresses pointed by these two pointers. 
-
-
-

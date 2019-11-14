@@ -14,8 +14,7 @@ int find_max(int num1, int num2, int num3){
 }
 
 int main(void) {
-	int result = find_max(5, 3, 8);
-	printf("%d", result);
+	printf("%d", find_max(5, 3, 8));
     printf("%d", find_max(14, -1, 9));
 	return EXIT_SUCCESS;
 }
@@ -30,9 +29,10 @@ int main(void) {
 #include "teachingcodes.h"
 
 char to_upper(char lowercase){
-	char uppercase;
-	uppercase = lowercase - 'a' + 'A';
-	return uppercase;
+	if(lowercase >= 'a' && lowercase <= 'z'){
+        lowercase = lowercase - 'a' + 'A';
+    }
+	return lowercase;
 }
 
 int main(void) {
@@ -56,9 +56,10 @@ int main(void) {
 #include "teachingcodes.h"
 
 char to_upper(char lowercase){
-	char uppercase;
-	uppercase = lowercase - 'a' + 'A';
-	return uppercase;
+	if(lowercase >= 'a' && lowercase <= 'z'){
+        lowercase = lowercase - 'a' + 'A';
+    }
+	return lowercase;
 }
 
 int main(void) {
@@ -90,20 +91,16 @@ int factorial(int num){
 	return result;
 }
 
-int sum_factorial_digit(int number){
-	int sum = 0;
+int main(void) {
+	int number;
+	scanf("%d", &number);
+    int sum = 0;
 	while(number > 0){
 		int last_digit = number % 10;
 		sum += factorial(last_digit);
 		number /= 10;
 	}
-	return sum;
-}
-
-int main(void) {
-	int number;
-	scanf("%d", &number);
-	printf("%d", sum_factorial_digit(number));
+	printf("%d", sum);
 	return EXIT_SUCCESS;
 }
 
