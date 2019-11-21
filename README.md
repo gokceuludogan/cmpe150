@@ -34,6 +34,11 @@ Bogazici University, CMPE150 (Introduction to Computing C)
 ### [Week7-8](week7-8/)
 * Functions
 
+### [Week9](week9/)
+
+- Pass by Reference
+- Arrays
+
 ### Repositories of other sections
 
 * [https://github.com/hkmztrk/Cmpe150](https://github.com/hkmztrk/Cmpe150)  
