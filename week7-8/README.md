@@ -170,4 +170,5 @@
 
 #### Question 5
 
-Write a function **find_min_max()** which takes three integers and two pointers as parameters and sets the max and min of these three integers to addresses pointed by these two pointers. 
+##### Write a function **find_min_max()** which takes three integers and two pointers as parameters and sets the max and min of these three integers to addresses pointed by these two pointers. 
+
