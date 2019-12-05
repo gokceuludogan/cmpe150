@@ -131,6 +131,10 @@ Write a program that plays tic-tac-toe. The tic-tac-toe game is played on a 3x3 
 
 **Hint:** Since we are using integers as marks, instead  of checking whether each element is same in a row/column/diagonal their sums could be checked. Thanks Gözde for making me realize that :v: 
 
+**Note:** To solve reading all inputs before printing any, put the following statement inside main function: `	setbuf(stdout, NULL);`
+
+
+
 ```
 Sample input and outputs // Assume player 1 starts first. Then they take turns during game.
 Before player makes a move, show the current status of the board to user. 
