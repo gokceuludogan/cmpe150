@@ -219,5 +219,7 @@ int sum_left_triangle(int size, int arr[size][size]){
 
 ## Homework :eyes:
 
-Stay tuned!  Solution will be here on Tuesday night!
+Stay tuned!  Solution will be here on Tuesday night or maybe sooner!
+
+*Note: To solve reading all inputs before printing any, put the following statement inside main function: `	setbuf(stdout, NULL);`*
 
