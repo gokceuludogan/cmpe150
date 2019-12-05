@@ -17,6 +17,8 @@ int main(void) {
 			scanf("%d", &arr[i][j]);
 		}
 	}
+    return 0;
+}
 ```
 
 ## Question 1
