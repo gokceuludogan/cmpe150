@@ -48,7 +48,7 @@
   	a[row][0] = 1;
   ```
 
-#### Warm up
+### Warm up
 
 Write a program which reads two integers corresponding the sizes of a two dimensional array and then reads this array. 
 
@@ -59,7 +59,7 @@ Write a program which reads two integers corresponding the sizes of a two dimens
 2 -1 7 12 8
 ```
 
-#### Question 1
+### Question 1
 
 Write a program which takes a two dimensional array and prints its transpose. 
 
@@ -125,9 +125,11 @@ output:
 16 // 4 + 2 + 10
 ```
 
-### Homework 
+### Homework :boom:
 
 Write a program that plays tic-tac-toe. The tic-tac-toe game is played on a 3x3 grid the game is played by two players, who take turns. The first player marks moves with a 0, the second with a 1 . The player who has formed a horizontal, vertical, or diagonal sequence of three marks wins.  Your program should draw the game board, ask the user for the coordinates of the next mark, change the players after every successful move, and pronounce the winner.
+
+**Hint:** Since we are using integers as marks, instead  of checking whether each element is same in a row/column/diagonal their sums could be checked. Thanks Gözde for making me realize that :v: 
 
 ```
 Sample input and outputs // Assume player 1 starts first. Then they take turns during game.
