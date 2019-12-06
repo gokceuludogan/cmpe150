@@ -219,5 +219,147 @@ int sum_left_triangle(int size, int arr[size][size]){
 
 ## Homework :eyes:
 
-Stay tuned!  Solution will be here on Tuesday night or maybe sooner!
+The solution seems a bit long but don't be afraid! Most of the lines are for printing a prettier board for you! Besides, the code works for variable board size.
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <teachingcodes.h>
+
+#define BOARD_SIZE 4
+#define player1 0
+#define player2 1
+
+/*
+ * Checks board for the winner
+ */
+int check_winner(int board[BOARD_SIZE][BOARD_SIZE]){
+	int i, j, row_sum=0, col_sum=0, left_diag_sum=0, right_diag_sum=0;
+	for(i=0; i<BOARD_SIZE; i++){
+		for(j=0; j<BOARD_SIZE; j++){
+			row_sum += board[i][j] == -1 ? BOARD_SIZE+1 : board[i][j];
+			col_sum += board[j][i] == -1 ? BOARD_SIZE+1 : board[j][i];
+		}
+		//printf("%d %d %d\n", i, row_sum, col_sum);
+		if(row_sum == BOARD_SIZE || col_sum == BOARD_SIZE){
+			return 1;
+		}else if(row_sum == 0 || col_sum == 0){
+			return 0;
+		}
+		row_sum=0;
+		col_sum=0;
+		left_diag_sum += board[i][i] == -1 ? BOARD_SIZE+1 : board[i][i];
+		right_diag_sum += board[i][BOARD_SIZE-i-1] == -1 ? BOARD_SIZE+1 : board[i][BOARD_SIZE-i-1];
+	}
+	//printf("%d %d\n", left_diag_sum, right_diag_sum);
+	if(left_diag_sum == BOARD_SIZE || right_diag_sum == BOARD_SIZE){
+		return 1;
+	}else if(left_diag_sum == 0 || right_diag_sum == 0){
+		return 0;
+	}
+	return -1;
+}
+
+/*
+ * Simple and ugly board
+ */
+void print_simple_board(int board[BOARD_SIZE][BOARD_SIZE]){
+	printf("Player 1 (%d)  -  Player 2 (%d)\n\n", player1, player2);
+	int i, j;
+	for(i=0; i<BOARD_SIZE; i++){
+    	for(j=0; j<BOARD_SIZE; j++){
+    		if(board[i][j] == -1){
+    			printf("-");
+    		}else{
+    			printf("%d", board[i][j]);
+    		}
+    	}
+    	printf("\n");
+    }
+}
+
+/*
+ * Separator used for pretty board
+ */
+void print_separator(char ch){
+	int j;
+	for(j=0; j <BOARD_SIZE; j++){
+		printf("%c%c%c", ch, ch, ch);
+		if(j != BOARD_SIZE-1){
+			printf("|");
+		}
+	}
+}
+
+/*
+ * Big and nice board
+ */
+void print_board(int board[BOARD_SIZE][BOARD_SIZE]){
+	printf("Player 1 (%d)  -  Player 2 (%d)\n\n", player1, player2);
+	int i, j;
+	for(i=0; i<BOARD_SIZE; i++){
+		print_separator(' ');
+		printf("\n");
+		for(j=0; j <BOARD_SIZE; j++){
+			if(board[i][j] == -1){
+				printf("   ");
+			}else{
+				printf(" %d ", board[i][j]);
+			}
+			if(j != BOARD_SIZE-1){
+				printf("|");
+			}
+		}
+		if(i != BOARD_SIZE-1){
+			printf("\n");
+			print_separator('_');
+			printf("\n");
+		}
+	}
+	printf("\n");
+	print_separator(' ');
+	printf("\n");
+}
+
+int main(void) {
+	setbuf(stdout, NULL);
+	int board[BOARD_SIZE][BOARD_SIZE];
+	int i, j;
+	for(i=0; i<BOARD_SIZE; i++){
+		for(j=0; j<BOARD_SIZE; j++){
+			board[i][j] = -1; // Initialize array elements with -1
+		}
+	}
+
+	int moves=0, choice;
+	print_board(board);
+	while(1){
+		printf("Player %d's turn: ", moves%2 + 1);
+		scanf("%d", &choice); //1, 2, 3, ..., BOARD_SIZE*BOARD_SIZE
+		int row = (choice - 1) / BOARD_SIZE;
+		int col = (choice - 1) % BOARD_SIZE;
+		while(choice > BOARD_SIZE*BOARD_SIZE || choice < 1 || board[row][col] != -1){
+			printf("Not valid! Make a valid move!");
+			scanf("%d", &choice);
+			row = (choice - 1) / BOARD_SIZE;
+			col = (choice - 1) % BOARD_SIZE;
+		}
+		board[row][col] = moves % 2;
+		print_board(board);
+		moves++;
+		int winner = check_winner(board);
+		if(winner == -1 && moves == BOARD_SIZE*BOARD_SIZE){
+			printf("It's a tie!");
+			break;
+		}else if(winner == 1){
+			printf("Player 2 won!");
+			break;
+		}else if(winner == 0){
+			printf("Player 1 won!");
+			break;
+		}
+	}
+	return EXIT_SUCCESS;
+}
+```
 
