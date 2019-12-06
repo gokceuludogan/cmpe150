@@ -226,13 +226,13 @@ The solution seems a bit long but don't be afraid! Most of the lines are for pri
 #include <stdlib.h>
 #include <teachingcodes.h>
 
-#define BOARD_SIZE 4
+#define BOARD_SIZE 3
 #define player1 0
 #define player2 1
 
-/*
- * Checks board for the winner
- */
+#define mark1 'O'
+#define mark2 'X'
+
 int check_winner(int board[BOARD_SIZE][BOARD_SIZE]){
 	int i, j, row_sum=0, col_sum=0, left_diag_sum=0, right_diag_sum=0;
 	for(i=0; i<BOARD_SIZE; i++){
@@ -267,20 +267,17 @@ void print_simple_board(int board[BOARD_SIZE][BOARD_SIZE]){
 	printf("Player 1 (%d)  -  Player 2 (%d)\n\n", player1, player2);
 	int i, j;
 	for(i=0; i<BOARD_SIZE; i++){
-    	for(j=0; j<BOARD_SIZE; j++){
-    		if(board[i][j] == -1){
-    			printf("-");
-    		}else{
-    			printf("%d", board[i][j]);
-    		}
-    	}
-    	printf("\n");
-    }
+		for(j=0; j<BOARD_SIZE; j++){
+			printf("%c", board[i][j] == -1 ? '-' : board[i][j] + '0');
+			/*
+			 * We could change player marks with 'O' and 'X'
+			 */
+			//printf("%c", board[i][j] == -1 ? '-' : (board[i][j] == 0 ? mark1 : mark2));
+		}
+		printf("\n");
+	}
 }
 
-/*
- * Separator used for pretty board
- */
 void print_separator(char ch){
 	int j;
 	for(j=0; j <BOARD_SIZE; j++){
@@ -301,11 +298,11 @@ void print_board(int board[BOARD_SIZE][BOARD_SIZE]){
 		print_separator(' ');
 		printf("\n");
 		for(j=0; j <BOARD_SIZE; j++){
-			if(board[i][j] == -1){
-				printf("   ");
-			}else{
-				printf(" %d ", board[i][j]);
-			}
+			printf(" %c ", board[i][j] == -1 ? ' ' : board[i][j] + '0');
+			/*
+			 * We could change player marks with 'O' and 'X'
+			 */
+			//printf(" %c ", board[i][j] == -1 ? ' ' : (board[i][j] == 0 ? mark1 : mark2));
 			if(j != BOARD_SIZE-1){
 				printf("|");
 			}
@@ -319,6 +316,7 @@ void print_board(int board[BOARD_SIZE][BOARD_SIZE]){
 	printf("\n");
 	print_separator(' ');
 	printf("\n");
+
 }
 
 int main(void) {
@@ -359,7 +357,7 @@ int main(void) {
 			break;
 		}
 	}
-	return EXIT_SUCCESS;
+	return 0;
 }
 ```
 
