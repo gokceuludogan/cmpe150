@@ -199,6 +199,8 @@ int main(void) {
 
 ## Homework
 
+![1576784076412](1576784076412.png)
+
 ```c
 #include <stdio.h>
 #include <string.h>
