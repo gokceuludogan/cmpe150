@@ -134,7 +134,7 @@ int main(void) {
 		str_len++;
 	}
 
-	for(i = start_ix; i < input[i] != '\0'; i++){
+	for(i = start_ix; input[i] != '\0'; i++){
 		input[i] = input[i + end_ix - start_ix];
 	}
 	input[i+1] = '\0';
