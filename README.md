@@ -5,10 +5,12 @@ This repository contains notes of Cmpe150.02 and Cmpe150.03 lab sessions.
 Bogazici University, CMPE150 (Introduction to Computing C) 
 
 **E-mail:** gokce.uludogan@boun.edu.tr
+
+## Announcement
+
+* If you have any questions, you can come to A2 at 10:00 on December 26. 
+
 ## Resources
-* You can check your concept knowledge with the quizzes: [https://www.geeksforgeeks.org/c-language-2-gq/](https://www.geeksforgeeks.org/c-language-2-gq/). 
-Specifically, for pointers, [https://www.geeksforgeeks.org/c-language-2-gq/pointers-gq/](https://www.geeksforgeeks.org/c-language-2-gq/pointers-gq/): 
-*Q1-3, Q11, Q13, Q17, Q20*
 
 * For practice: 
   * [https://www.w3resource.com/c-programming-exercises/](https://www.w3resource.com/c-programming-exercises/)
