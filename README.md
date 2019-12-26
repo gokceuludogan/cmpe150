@@ -8,7 +8,7 @@ Bogazici University, CMPE150 (Introduction to Computing C)
 
 ## Announcement
 
-* If you have any questions, you can come to A2 at 10:00 on December 26. 
+* If you have any questions, you can come to A2 at 10:00 on December 27. 
 
 ## Resources
 
