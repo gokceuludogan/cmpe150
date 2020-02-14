@@ -171,7 +171,7 @@ int main()
     int num1;
     int num2;
     int num3, num4;
-	return 0;    
+    return 0;    
 }
 ```
 
@@ -188,7 +188,7 @@ int main()
     int num1;
     num1 = 3;
     int num2 = 5;
-	return 0;    
+    return 0;    
 }
 ```
 
@@ -206,7 +206,7 @@ int main()
     int num2 = 5;
     int num3;
     num3 = num1 + num2;
-	return 0;    
+    return 0;    
 }
 ```
 
@@ -241,7 +241,7 @@ int main()
 int main()
 {
     printf("Hello world!");
-	return 0;    
+    return 0;    
 }
 ```
 
@@ -256,7 +256,7 @@ int main()
     int num3;
     num3 = num1 + num2;
     printf(“%d + %d = %d\n”, num1, num2, num3);
-	return 0;    
+    return 0;    
 }
 ```
 
