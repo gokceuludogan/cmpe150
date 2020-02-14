@@ -1,6 +1,4 @@
-# Welcome to CMPE150.03 Lab Session!
-
-
+# Welcome to CMPE150.04 Lab Session!
 
 ### Assistant: Gökçe Uludoğan
 
@@ -8,7 +6,7 @@
 
 ### Office:	    BM36
 
-
+## Github:	https://github.com/gokceuludogan/cmpe150 
 
 ## Important Announcements
 
@@ -16,9 +14,7 @@
 
 * We will use **Eclipse IDE** and **Teaching Codes** plug-in in labs and exams.  Student accounts will be created for this plug-in. The username and password will be sent to **the e-mail in BUIS**.
 
-* We will send you a manual for the installation of  these packages. **Please don't install Eclipse and Teaching Codes yet!**
-
-* There will be **weekly pop-up quizzes** during lab hours.  The quiz grades **contribute** to the overall grade.  *(10%)*
+* There will be **weekly quizzes** during lab hours.  The quiz grades **contribute** to the overall grade. 
 
 * Everyone must attend to the lab session of **the section registered to**.  If you have any conflict, you should change your section. 
 
@@ -38,11 +34,9 @@ Figure from: https://www.ubuntupit.com/wp-content/uploads/2018/11/Most-Popular-P
 
 
 
-
-
- 
-
 ## Installation
+
+**Manuals:** https://programming.cmpe.boun.edu.tr/welcome
 
 The installation consists of four stages. The steps you should follow for these stages are OS dependent (Windows, Linux, MacOS). 
 
@@ -68,10 +62,6 @@ It provides tools for *writing code, compiling and building the program and debu
 ## User Interface 
 
 ![1569348487515](figures/1569348487515.png)
-
-
-
-
 
 
 
@@ -172,13 +162,53 @@ It provides tools for *writing code, compiling and building the program and debu
 * In C, every variable needs to be *declared* to be a specific type before use. (i.e. int sum;)
 * Several variables of the same type can be declared in a single line. Names separated with comma. (int num1, num2, num3;)
 
+### Example
+
+```c
+#include <stdio.h>
+int main()
+{
+    int num1;
+    int num2;
+    int num3, num4;
+	return 0;    
+}
+```
+
 ## Assignments (=)
 
 * Stores a value at the memory location reserved for the variable. **Not mathematical equality.**
 
+### Example
+
+```c
+#include <stdio.h>
+int main()
+{
+    int num1;
+    num1 = 3;
+    int num2 = 5;
+	return 0;    
+}
+```
+
 ## Operations 
 
 * Sum, Subtraction, Multiplication, Division, Modulus. 
+
+### Example
+
+```c
+#include <stdio.h>
+int main()
+{
+    int num1 = 3;
+    int num2 = 5;
+    int num3;
+    num3 = num1 + num2;
+	return 0;    
+}
+```
 
 ## Conventions
 
@@ -198,17 +228,62 @@ It provides tools for *writing code, compiling and building the program and debu
 
 ### printf() 
 
-* printf(“Result= %d\n”, number_3);
+* printf(“Result= %d\n”, num3);
 * Takes a “format string”, and any number of expressions. Expression: Anything that returns a value.
 * %d: “Format specifier”, used for int.
 * \n: Newline character (one of the “escape” characters)
-* printf(“%d + %d = %d\n”, number_1, number_2, number_3);**
+* printf(“%d + %d = %d\n”, num1, num2, num3);**
 
+### Example
 
+```c
+#include <stdio.h>
+int main()
+{
+    printf("Hello world!");
+	return 0;    
+}
+```
 
+### Example
 
+```c
+#include <stdio.h>
+int main()
+{
+    int num1 = 3;
+    int num2 = 5;
+    int num3;
+    num3 = num1 + num2;
+    printf(“%d + %d = %d\n”, num1, num2, num3);
+	return 0;    
+}
+```
 
- 
+## Input
+
+- Format: ```scanf("%d", &number);```  *the variable **number** must be declared before.*
+- Requires  *stdio.h*: ```#include <stdio.h>```
+
+```c
+#include <stdio.h>
+int main(){
+    // Declare variables
+    int number_1, number_2, product;
+    //Read first value
+    printf("Enter first number\n");
+    scanf("%d", &number_1);
+    //Read second value
+    printf("Enter second number\n");
+    scanf("%d", &number_2);
+    product = number_1 * number_2;
+    // Display output
+    printf("The product of %d and  %d is %d\n", number_1, number_2, product);
+    return 0;
+}
+```
+
+### 
 
 
 

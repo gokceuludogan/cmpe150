@@ -1,60 +1,17 @@
-# Cmpe150 - Fall 2019
+# Cmpe150 - Spring 2020
 
-This repository contains notes of Cmpe150.02 and Cmpe150.03 lab sessions. 
+This repository contains notes of Cmpe150.04 lab sessions. 
 
 Bogazici University, CMPE150 (Introduction to Computing C) 
 
 **E-mail:** gokce.uludogan@boun.edu.tr
-## Resources
-* You can check your concept knowledge with the quizzes: [https://www.geeksforgeeks.org/c-language-2-gq/](https://www.geeksforgeeks.org/c-language-2-gq/). 
-Specifically, for pointers, [https://www.geeksforgeeks.org/c-language-2-gq/pointers-gq/](https://www.geeksforgeeks.org/c-language-2-gq/pointers-gq/): 
-*Q1-3, Q11, Q13, Q17, Q20*
 
-* For practice: 
-  * [https://www.w3resource.com/c-programming-exercises/](https://www.w3resource.com/c-programming-exercises/)
-  * C Programs with Solutions by S. Anandamurugan
+### Repositories of other lab sessions
 
+* [https://github.com/melsener/cmpe150](https://github.com/melsener/cmpe150)
+* [https://github.com/suyunu/c-notes](https://github.com/suyunu/c-notes)
 
 ### [Week 1](week1/)
 
-* Integers
-* Displaying outputs
-
-### [Week 2](week2/)
-
-* Floats
-* Getting Input
-
-### [Week3](week3/) 
-
-* Errors
-* Chars
-* Operators
-
-### [Week4](week4/)
-
-* Conditional Statements
-
-### [Week5](week5/) 
-
-* Repetition (while, do while)
-
-### [Week6](week6/)
-
-* Repetition (for)
-### [Week7-8](week7-8/)
-* Functions
-
-### [Week9](week9/)
-
-- Pass by Reference
-- Arrays
-
-### [Week10](week10/)
-
-- Arrays
-
-### Repositories of other sections
-
-* [https://github.com/hkmztrk/Cmpe150](https://github.com/hkmztrk/Cmpe150)  
-* [https://github.com/suyunu/c-notes](https://github.com/suyunu/c-notes)
+- Integers
+- Displaying outputs
