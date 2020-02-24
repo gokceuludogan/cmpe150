@@ -17,3 +17,12 @@ Bogazici University, CMPE150 (Introduction to Computing C)
 - Displaying outputs
 - Getting inputs
 
+### [Week 2](week2/)
+
+* Data types
+
+* Input & output
+
+* Errors
+
+  
