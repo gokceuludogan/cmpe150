@@ -157,10 +157,6 @@ Stores nonintegers.
 |   double    |    8 byte    |  2.3E-308 to 1.7E+308  | 15 decimal places |
 | long double |   10 byte    | 3.4E-4932 to 1.1E+4932 | 19 decimal places |
 
-## Github: https://github.com/gokceuludogan/cmpe150/
-
-
-
 ### Q1
 
 Write a C program that reads the radius of a sphere and calculates the volume. *(π: 3.14)*
@@ -224,20 +220,22 @@ output: 8
 
 - Examples
 
-  - ![1570300391805](C:/Cmpe150-Fall19/lab-materials/fall19/week3/figures/1570300391805.png)
+  - ![1570300391805](figures/1570300391805.png)
 
     
 
-    ![1570300492161](C:/Cmpe150-Fall19/lab-materials/fall19/week3/figures/1570300492161.png)
+    
+
+    ![1570300492161](figures/1570300492161.png)
 
     
 
-  - ![1570300588514](C:/Cmpe150-Fall19/lab-materials/fall19/week3/figures/1570300588514.png)
+  - ![1570300588514](figures/1570300588514.png)
 
     
 
-    ![1570300636310](C:/Cmpe150-Fall19/lab-materials/fall19/week3/figures/1570300636310.png)
-
+    ![1570300636310](figures/1570300636310.png)
+  
     
 
 ### Run Time Errors
@@ -248,108 +246,39 @@ output: 8
 
   - Division by zero. 
 
-    ![1582270849273](C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1582270849273.png)
+    ![1582270849273](figures/1582270849273.png)
 
-    ![1582270887828](C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1582270887828.png)
+    ![1582270887828](figures/1582270887828.png)
 
   - Logic errors.
 
 ## Warnings 
 
-- ![1570300699622](C:/Cmpe150-Fall19/lab-materials/fall19/week3/figures/1570300699622.png)
+- ![1570300699622](figures/1570300699622.png)
 
   
 
   
 
-  ![1570300750532](C:/Cmpe150-Fall19/lab-materials/fall19/week3/figures/1570300750532.png)
+  ![1570300750532](figures/1570300750532.png)
 
   
 
-- ![1570300948268](C:/Cmpe150-Fall19/lab-materials/fall19/week3/figures/1570300948268.png)
+- ![1570300948268](figures/1570300948268.png)
 
   
 
-  ![1570300973481](C:/Cmpe150-Fall19/lab-materials/fall19/week3/figures/1570300973481.png)
+  ![1570300973481](figures/1570300973481.png)
 
   
 
-- ![1570302473710](C:/Cmpe150-Fall19/lab-materials/fall19/week3/figures/1570302473710.png)
+- ![1570302473710](figures/1570302473710.png)
 
   
 
   
 
-  ![1570302539152](C:/Cmpe150-Fall19/lab-materials/fall19/week3/figures/1570302539152.png)
+  ![1570302539152](figures/1570302539152.png)
 
   
 
-## Operators
-
-### Assignment Operators (=, )
-
-- <variable> = <expression>
-- Assign the value of the expression to the variable
-- Right to left associative:  
-  - ```a = b = c = 10;```  ``` a = (b = (c = 10));```
-- Initialization:
-  - int a = 3, b = 4;
-    float x = 2.75;
-- Compound assignment operator: 
-  - a = a + b;
-    a += b;
-
-#### Type Conversion
-
-- Narrow to broader (i.e. int to float, 3 => 3.0): no loss of information. 
-- Broad to narrower (i.e. float to int, 3.5 => 3): lost info. 
-
-### Arithmetic Operators (+, -, *, /, %)
-
-- The results of an operator expression is of the "wider" type (int < float < double)
-
-- Integer division vs Float division
-
-- Float division of integers: Multiply with 1.0 or cast into float. 
-
-- Left to right associative: ```a/b/c```  <=>```(a/b)/c```
-
-- Variable updates: 
-
-  - x = x +1, 
-
-  - ++, --: pre/post 
-
-    
-
-### Logical Operators
-
-- Boolean operations (true vs false) 
-  - Zero => false
-  - Nonzero => true
-- Operators: 
-  - "&&" logical-AND
-  - "||" logical-OR 
-  - "!" negation
-
-
-
-### Relational Operators
-
-- Value comparisons: 1 if true else 0
-
-| **Operators** | **Example/Description**                  |
-| ------------- | ---------------------------------------- |
-| >             | x > y (x is greater than y)              |
-| <             | x < y (x is less than y)                 |
-| >=            | x >= y (x is greater than or equal to y) |
-| <=            | x <= y (x is less than or equal to y)    |
-| ==            | x == y (x is equal to y)                 |
-| !=            | x != y (x is not equal to y)             |
-
-### Expressions and precedence
-
-- Highest precedence: Parentheses
-- *, /, % are evaluated before +, -
-- **Arithmetic Operators > Comparison Operators > Logical Operators > Assignment Operators**
-- Associativity is used when there are two or more operators of same precedence
