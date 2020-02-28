@@ -10,19 +10,22 @@ Bogazici University, CMPE150 (Introduction to Computing C)
 
 * [https://github.com/melsener/cmpe150](https://github.com/melsener/cmpe150)
 * [https://github.com/suyunu/c-notes](https://github.com/suyunu/c-notes)
+* [https://github.com/zeynepyirmibes/cmpe150-spring20](https://github.com/zeynepyirmibes/cmpe150-spring20)
 
-### [Week 1](week1/)
+### [Week 1](week01/)
 
 - Integers
 - Displaying outputs
 - Getting inputs
 
-### [Week 2](week2/)
+### [Week 2](week02/)
 
 * Data types
-
 * Input & output
-
 * Errors
 
-  
+### [Week 3](week03/)
+
+* Operators
+* Characters 
+
