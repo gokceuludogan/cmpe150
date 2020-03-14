@@ -121,7 +121,7 @@ for (<initialize>; <boolean_expression>; <update>){
 }
 ```
 
-<img src="C:/Cmpe150-Fall19/lab-materials/fall19/week6/figures/1571761472620.png" alt="1571761472620" style="zoom:50%;" />
+<img src="figures/1571761472620.png" alt="1571761472620" style="zoom:50%;" />
 
 
 
