@@ -33,3 +33,7 @@ Bogazici University, CMPE150 (Introduction to Computing C)
 
 * Conditional Statements (If, If-else, Switch)
 
+### [Week 5](week05/)
+
+* Loops (While, do while, for)
+
