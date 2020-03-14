@@ -1,5 +1,7 @@
 # Cmpe150.03 Week 5
 
+![img](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191202113149/CPP-Decision-Making.png)
+
 ### Warm up
 
 Write a program to input two numbers from user and find maximum between two numbers using if else and switch case.
@@ -133,6 +135,15 @@ for (<initialize>; <boolean_expression>; <update>){
 
 
 
+## Which Loops?
+
+* For loops: definite or counting loops
+  * The number of iterations is definite.
+  * i.e. Do sth N times..
+* While and do loops:  indefinite or result controlled loops
+  * Do until some condition is satisfied.
+  * i.e. Do sth until user inputs negative..
+
 #### Question 4
 
 Write a program that takes two characters from user and displays characters between these.
@@ -144,9 +155,9 @@ output: a b c d e
 
 #### Question 5
 
-Write a program which reads a positive integer number N , and prints the Nth fibonacci number. *0, 1, 1, 2, 3, 5, ...*  
+Write a program which reads a positive integer number N , and prints the Nth fibonacci number. *0, 1, 1, 2, 3, 5, ...* 
 
-F_0 = 0, F_1 = 1, F_n = F_(n-2) + F_(n-1)
+F_0 = 0, F_1 = 1, F_n = F\_(n-2) + F\_(n-1)
 
 ```
 input: 4
