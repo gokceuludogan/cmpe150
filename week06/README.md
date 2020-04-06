@@ -11,14 +11,14 @@ Write a program which takes an integer as input and computes the sum of the fact
 
 ### Question 2
 
-**a. ** Write a program which takes an integer as input and prints whether the number is prime or not.
+**a.** Write a program which takes an integer as input and prints whether the number is prime or not.
 
 | Input | Output    |
 | ----- | --------- |
 | 7     | prime     |
 | 8     | not prime |
 
-**b. ** Write a program which takes an integer as input and prints prime numbers up to that integer.
+**b.** Write a program which takes an integer as input and prints prime numbers up to that integer.
 
 | Input | Output        |
 | ----- | ------------- |
@@ -27,14 +27,14 @@ Write a program which takes an integer as input and computes the sum of the fact
 
 ### Question 3
 
-**a. ** Write a program which takes two positive integers as N and M then prints a rectangle with size NxM. 
+**a.** Write a program which takes two positive integers as N and M then prints a rectangle with size NxM. 
 
 | Input | Output                                                |
 | :---: | ----------------------------------------------------- |
 |  3 4  | \*\*\*\*<br />\*\*\*\*<br />\*\*\*\*                  |
 |  2 6  | \*\*<br />*\*<br />\*\*<br />\*\*<br />\*\*<br />\*\* |
 
-**b. ** Write a program which takes two positive integers as N and M then prints a rectangle with size NxM which has stars (*) at borders, and lines (-) inside.
+**b.** Write a program which takes two positive integers as N and M then prints a rectangle with size NxM which has stars (*) at borders, and lines (-) inside.
 
 | Input | Output                                              |
 | :---: | --------------------------------------------------- |
