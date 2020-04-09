@@ -32,7 +32,7 @@ Write a program which takes an integer as input and computes the sum of the fact
 | Input | Output                                                |
 | :---: | ----------------------------------------------------- |
 |  3 4  | \*\*\*\*<br />\*\*\*\*<br />\*\*\*\*                  |
-|  2 6  | \*\*<br />*\*<br />\*\*<br />\*\*<br />\*\*<br />\*\* |
+|  2 6  | \*\*\*\*\*\*<br />*\*\*\*\*\* |
 
 **b.** Write a program which takes two positive integers as N and M then prints a rectangle with size NxM which has stars (*) at borders, and lines (-) inside.
 
