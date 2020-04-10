@@ -21,14 +21,14 @@ Write a program which takes an integer as input and computes the sum of the fact
 
 ### Question 2
 
-**a. ** Write a program which takes an integer as input and prints whether the number is prime or not.
+**a.** Write a program which takes an integer as input and prints whether the number is prime or not.
 
 | Input | Output    |
 | ----- | --------- |
 | 7     | prime     |
 | 8     | not prime |
 
-**b. ** Write a program which takes an integer as input and prints prime numbers up to that integer.
+**b.** Write a program which takes an integer as input and prints prime numbers up to that integer.
 
 | Input | Output        |
 | ----- | ------------- |
@@ -37,14 +37,14 @@ Write a program which takes an integer as input and computes the sum of the fact
 
 ### Question 3
 
-**a. ** Write a program which takes two positive integers as N and M then prints a rectangle with size NxM. 
+**a.** Write a program which takes two positive integers as N and M then prints a rectangle with size NxM. 
 
 | Input | Output                               |
 | :---: | ------------------------------------ |
 |  3 4  | \*\*\*\*<br />\*\*\*\*<br />\*\*\*\* |
 |  2 6  | \*\*\*\*\*\*<br />*\*\*\*\*\*        |
 
-**b. ** Write a program which takes two positive integers as N and M then prints a rectangle with size NxM which has stars (*) at borders, and lines (-) inside.
+**b.** Write a program which takes two positive integers as N and M then prints a rectangle with size NxM which has stars (*) at borders, and lines (-) inside.
 
 | Input | Output                                              |
 | :---: | --------------------------------------------------- |
@@ -60,7 +60,7 @@ Write a program which takes an integer as input and computes the sum of the fact
 |   3   | 1<br />12<br />123                      |
 |   5   | 1<br />12<br />123<br />1234<br />12345 |
 
-<details><summary>Hint</summary> At each row, we iterate from 1 to the row number.
+<details><summary>Hint</summary> At each row, we iterate from 1 to the row number.</details>
 
 **b.** Write a program which takes two integer as N and x and display a right angle triangle with N number of rows formed by powers of x as follows:
 
@@ -69,7 +69,7 @@ Write a program which takes an integer as input and computes the sum of the fact
 |  3 4  | 4<br />4 16 <br />4 16 64             |
 |  4 3  | 3<br />3 9<br />3 9 27<br />3 8 27 81 |
 
-<details><summary>Hint</summary> At each row, we take power of input integer from once to the row number times.
+<details><summary>Hint</summary> At each row, we take power of input integer from once to the row number times.</details>
 
 ### Question 5
 
@@ -86,6 +86,6 @@ Write a program which takes an integer as input and prints the following pattern
 
 | Input | Output                                                       |
 | :---: | :----------------------------------------------------------- |
-|   5   | \*<br />   \*\*<br />  \*\*\*<br /> \*\*\*\*<br />\*\*\*\*\* |
-|   3   | \*<br /> \*\*<br />\*\*\*                                    |
+|   5   |&nbsp;&nbsp;&nbsp;&nbsp;\*<br />&nbsp;&nbsp;&nbsp;\*\*<br />&nbsp;&nbsp;\*\*\*<br />&nbsp;\*\*\*\*<br />\*\*\*\*\* |
+|   3   |&nbsp;&nbsp;\*<br />&nbsp;\*\*<br />\*\*\*                                    |
 
