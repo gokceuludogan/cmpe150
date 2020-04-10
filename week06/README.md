@@ -9,6 +9,18 @@ Write a program which takes an integer as input and computes the sum of the fact
 | 572   | 5162   |
 | 27    | 5042   |
 
+<details><summary>Break</summary>  
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/c-break-statement-works.jpg" alt="Break">
+</details> 
+
+<details><summary>Continue</summary>  
+    <img src="https://cdn.programiz.com/sites/tutorial2program/files/c-continue-statement-works.jpg"> 
+</details>
+
+
+
+*What about the sum of the factorial of only odd digits?*
+
 ### Question 2
 
 **a. ** Write a program which takes an integer as input and prints whether the number is prime or not.
@@ -29,10 +41,10 @@ Write a program which takes an integer as input and computes the sum of the fact
 
 **a. ** Write a program which takes two positive integers as N and M then prints a rectangle with size NxM. 
 
-| Input | Output                                                |
-| :---: | ----------------------------------------------------- |
-|  3 4  | \*\*\*\*<br />\*\*\*\*<br />\*\*\*\*                  |
-|  2 6  | \*\*<br />*\*<br />\*\*<br />\*\*<br />\*\*<br />\*\* |
+| Input | Output                               |
+| :---: | ------------------------------------ |
+|  3 4  | \*\*\*\*<br />\*\*\*\*<br />\*\*\*\* |
+|  2 6  | \*\*\*\*\*\*<br />*\*\*\*\*\*        |
 
 **b. ** Write a program which takes two positive integers as N and M then prints a rectangle with size NxM which has stars (*) at borders, and lines (-) inside.
 
@@ -50,6 +62,8 @@ Write a program which takes an integer as input and computes the sum of the fact
 |   3   | 1<br />12<br />123                      |
 |   5   | 1<br />12<br />123<br />1234<br />12345 |
 
+<details><summary>Hint</summary> At each row, we iterate from 1 to the row number.
+
 **b.** Write a program which takes two integer as N and x and display a right angle triangle with N number of rows formed by powers of x as follows:
 
 | Input | Output                                |
@@ -57,13 +71,23 @@ Write a program which takes an integer as input and computes the sum of the fact
 |  3 4  | 4<br />4 16 <br />4 16 64             |
 |  4 3  | 3<br />3 9<br />3 9 27<br />3 8 27 81 |
 
+<details><summary>Hint</summary> At each row, we take power of input integer from once to the row number times.
+
 ### Question 5
 
 Write a program which takes an integer as input and prints an upper triangle of letters as follows:
 
+| Input | Output                                            |
+| :---: | ------------------------------------------------- |
+|   5   | A B C D E<br />B C D E<br />C D E<br />D E<br />E |
+|   3   | A B C<br />B C<br />C                             |
 
+### Question 6 (Requested in the Lab Session)
+
+Write a program which takes an integer as input and prints the following pattern:
 
 | Input | Output                                                       |
-| :---: | ------------------------------------------------------------ |
-|   5   | A B C D E<br />   B C D E<br />    C D E<br />      D E<br />        E |
-|   3   | A B C<br />  B C<br />    C                                  |
+| :---: | :----------------------------------------------------------- |
+|   5   | \*<br />   \*\*<br />  \*\*\*<br /> \*\*\*\*<br />\*\*\*\*\* |
+|   3   | \*<br /> \*\*<br />\*\*\*                                    |
+
