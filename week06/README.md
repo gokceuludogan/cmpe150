@@ -17,8 +17,6 @@ Write a program which takes an integer as input and computes the sum of the fact
     <img src="https://cdn.programiz.com/sites/tutorial2program/files/c-continue-statement-works.jpg"> 
 </details>
 
-
-
 *What about the sum of the factorial of only odd digits?*
 
 ### Question 2

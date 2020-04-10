@@ -37,3 +37,7 @@ Bogazici University, CMPE150 (Introduction to Computing C)
 
 * Loops (While, do while, for)
 
+### [Week 6](week06/)
+
+* Nested Loops
+
