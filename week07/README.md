@@ -51,12 +51,12 @@ Then write a program which reads a positive integer z and another integer x, the
 
 #### Question 5
 
- Write a function named **printAsTime**  which reads **hours**, **minutes**, and **seconds** as three integers, then prints it to the screen as shown in the examples. This function shouldn't return anything. Assume no invalid input will be given .
+Write a function named **pyramid** which takes an integer as input: **num_of_rows**, then prints the pyramid of numbers increased by 1 shown below. This function shouldn't return anything.
 
-| Input  | Output   |
-| ------ | -------- |
-| 5 12 3 | 05:12:03 |
-| 3 0 22 | 03:00:22 |
+| Input | Output                                    |
+| ----- | ----------------------------------------- |
+| 4     | 1<br />   2 3<br />  4 5 6<br /> 7 8 9 10 |
+| 3     | 1 <br /> 2 3<br />4 5 6                   |
 
 #### Question 6
 
