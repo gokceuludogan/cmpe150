@@ -55,8 +55,8 @@ Write a function named **pyramid** which takes an integer as input: **num_of_row
 
 | Input | Output                                    |
 | ----- | ----------------------------------------- |
-| 4     | 1<br />   2 3<br />  4 5 6<br /> 7 8 9 10 |
-| 3     | 1 <br /> 2 3<br />4 5 6                   |
+| 4     | &nbsp;&nbsp;&nbsp;1<br />&nbsp;&nbsp;2 3<br />&nbsp;4 5 6<br />7 8 9 10 |
+| 3     | &nbsp;&nbsp;1<br />&nbsp;2 3<br />4 5 6                   |
 
 #### Question 6
 
