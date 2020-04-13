@@ -86,11 +86,11 @@ Write a function that will take an integer as a parameter. Then calculates and r
 | ----- | ---------- |
 | 25    | 11001      |
 | 532   | 1000010100 |
-| 5     | 11         |
+| 5     | 101        |
 
 #### Question 9
 
-Write a function that will take a positive integer n, and returns the nth fibonacci number. Then write main appropriately to see the result.
+Write a function that will take a positive integer n, and returns the nth Fibonacci number. Then write main appropriately to see the result.
 
 | Input | Output |
 | ----- | ------ |
