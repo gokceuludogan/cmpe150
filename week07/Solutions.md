@@ -8,8 +8,8 @@
 
 char to_upper(char lowercase){
 	if(lowercase >= 'a' && lowercase <= 'z'){
-        lowercase = lowercase - 'a' + 'A';
-    }
+        	lowercase = lowercase - 'a' + 'A';
+    	}
 	return lowercase;
 }
 
@@ -34,8 +34,8 @@ int main() {
 
 char to_upper(char lowercase){
 	if(lowercase >= 'a' && lowercase <= 'z'){
-        lowercase = lowercase - 'a' + 'A';
-    }
+        	lowercase = lowercase - 'a' + 'A';
+    	}
 	return lowercase;
 }
 
