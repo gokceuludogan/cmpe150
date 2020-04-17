@@ -1,7 +1,6 @@
 # Week 7 - Functions
 
 <details><summary><bold>Function Syntax</bold></summary><img src='https://www.geeksforgeeks.org/wp-content/uploads/Function-Prototype-in-c.png'/></details>
-
 #### Question 1
 
 Write a function **to_upper()** which takes **a char** as input, and returns the upper case version of the character if it is a lower case letter. Otherwise it should return the same character.
@@ -64,7 +63,7 @@ Write a function **is_perfect()** that checks whether the given number is perfec
 
 | Input | Output     | Return |
 | ----- | ---------- | ------ |
-| 5     | 1 5        | 0      |
+| 5     | 1          | 0      |
 | 6     | 1 2 3      | 1      |
 | 28    | 1 2 4 7 14 | 1      |
 | 12    | 1 2 3 4 6  | 0      |
