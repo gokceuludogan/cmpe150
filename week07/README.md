@@ -1,6 +1,7 @@
 # Week 7 - Functions
 
 <details><summary><bold>Function Syntax</bold></summary><img src='https://www.geeksforgeeks.org/wp-content/uploads/Function-Prototype-in-c.png'/></details>
+
 #### Question 1
 
 Write a function **to_upper()** which takes **a char** as input, and returns the upper case version of the character if it is a lower case letter. Otherwise it should return the same character.
@@ -48,11 +49,13 @@ Then write a program which reads a positive integer z and another integer x, the
 | 204602 5 | 0               |
 | 52 9     | Incorrect input |
 
-23423,	   last_digit = 3, 	number = 2342, ctr = 1
+<details><summary>Steps</summary>
+<p>23423,	   last_digit = 3, 	number = 2342, ctr = 1</p>
 
-2342,		 last_digit = 2,	 number = 234, ctr = 2
+<p>2342,		 last_digit = 2,	number = 234,  ctr = 2</p>
 
-234,		   last_digit = 4, 	number = 23, 	  ctr = 3
+<p>234,		   last_digit = 4, 	number = 23,   ctr = 3</p>
+</details>
 
 #### Question 5
 
