@@ -41,3 +41,8 @@ Bogazici University, CMPE150 (Introduction to Computing C)
 
 * Nested Loops
 
+### [Week 7](week07/)
+
+* Function
+
+
