@@ -48,6 +48,12 @@ Then write a program which reads a positive integer z and another integer x, the
 | 204602 5 | 0               |
 | 52 9     | Incorrect input |
 
+23423,	   last_digit = 3, 	number = 2342, ctr = 1
+
+2342,		 last_digit = 2,	 number = 234, ctr = 2
+
+234,		   last_digit = 4, 	number = 23, 	  ctr = 3
+
 #### Question 5
 
 Write a function named **pyramid** which takes an integer as input: **num_of_rows**, then prints the pyramid of numbers increased by 1 shown below. This function shouldn't return anything.
@@ -77,6 +83,14 @@ Write a function that will take an integer number and return its reverse version
 | 1234  | 4321   |
 | 68436 | 63486  |
 
+<details><summary>Reverse</summary>
+<p>1234 % 10  = 4, 1234 / 10 = 123 0 * 10 + 4</p>, 
+<p>123 % 10 = 3, 123 / 10 = 12,  4 * 10 + 3</p>
+<p>12 % 10 = 2, 12 / 10 = 1, 43 * 10 + 2</p>
+<p>1 % 10 = 1, 1 / 10 = 0, 432 * 10 + 1</p>
+=> <bold>4321</bold>
+</details>
+
 #### Question 8
 
 Write a function that will take an integer as a parameter. Then calculates and returns its binary version as another integer. Then write main appropriately to see the result.	
@@ -86,6 +100,15 @@ Write a function that will take an integer as a parameter. Then calculates and r
 | 25    | 11001      |
 | 532   | 1000010100 |
 | 5     | 101        |
+
+<details><summary>Conversion</summary>
+<p>25 / 2 = 12 with 1 remainder (units)  1 * 10^0</p>
+<p>12 / 2 = 6 with 0 remainder (tens) 0 * 10^1 </p>
+<p>6 / 2 = 3 with 0 remainder (hundreds) 0 * 10^2 </p>
+<p>3 / 2 = 1 with 1 remainder (thousands) 1 * 10^3 </p>
+<p>1 / 2 = 0 with 1 remainder 1 * 10^4 </p>
+=> <bold>11001</bold>
+</details>  
 
 #### Question 9
 
