@@ -85,7 +85,7 @@ Consider three consecutive numbers such as **a**, **b**, **c**. **b** is a local
 
 So, the function is supposed to set 10 to the addressed pointed by **ptr_to_greatest** and return 3. 	
 
-| Input            | Return | *ptr_to_greatest   |
+| Sequence            | Return | *ptr_to_greatest   |
 | ---------------- | ------ | ------------------ |
 | 7 4 8 5 6 1 10 3 | 3      | 10                 |
 | 1 3 5 7 9        | 0     | *Not set anything* |
