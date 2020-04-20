@@ -70,7 +70,7 @@ In the main program, create two integer variables a and b, then read their value
 
 ## Question 5 
 
-Write a function named **local_max** which takes an integer **n** which is the number of integers to read and an integer pointer **ptr_to_greatest** to set the greatest local maximum in the sequence and returns number of local maxima of this sequence. If there is no local maximum in the sequence, then returns -1.
+Write a function named **local_max** which takes an integer **n** which is the number of integers to read and an integer pointer **ptr_to_greatest** to set the greatest local maximum in the sequence and returns number of local maxima of this sequence.
 
 Consider three consecutive numbers such as **a**, **b**, **c**. **b** is a local maximum if it is higher than **a** and **c**. For example, in the sequence 7 4 8 5 6 1 10 3 there are two local maxima. 
 
@@ -88,7 +88,7 @@ So, the function is supposed to set 10 to the addressed pointed by **ptr_to_grea
 | Input            | Return | *ptr_to_greatest   |
 | ---------------- | ------ | ------------------ |
 | 7 4 8 5 6 1 10 3 | 3      | 10                 |
-| 1 3 5 7 9        | -1     | *Not set anything* |
+| 1 3 5 7 9        | 0     | *Not set anything* |
 | 8 6 11 7 4       | 1      | 11                 |
 | 7 8 5 7 6 1 2    | 2      | 8                  |
 
