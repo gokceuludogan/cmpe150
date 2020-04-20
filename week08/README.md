@@ -94,5 +94,5 @@ So, the function is supposed to set 10 to the addressed pointed by **ptr_to_grea
 
 ## References
 
-**\* ** http://www.csc.villanova.edu/~mdamian/Past/csc2400fa13/assign/plab.pdf
+**\*** http://www.csc.villanova.edu/~mdamian/Past/csc2400fa13/assign/plab.pdf
 
