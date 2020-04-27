@@ -45,4 +45,11 @@ Bogazici University, CMPE150 (Introduction to Computing C)
 
 * Function
 
+### [Week 8](week08/)
 
+* Function (Pass by reference)
+* Pointers
+
+### [Week 9](week09/)
+
+* Arrays
