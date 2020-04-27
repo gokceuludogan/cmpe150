@@ -92,6 +92,7 @@ Write a function named **decrement** which takes an integer pointer (address of 
 In the main program, read an integer from the user. Then call **increment** with this integer and print the value of this integer. Then call **decrement** with this integer and print the value of this integer again. Notice the difference. 
 
 <details><summary>Steps</summary><img src='figures/Week8-Q2.png'/></details>
+
 ## Question 3 (TeachingCodes Lab8)
 
 Write a function named **divideWithRemainder** which takes two integer values: **number** and **divisor**, and two integer pointers (addresses of two integers): **result** and **remainder**. This function should divide the number by divisor, then write the result into the address given by **result**, and 				write the remainder into the address given by **remainder**. 				 
@@ -217,7 +218,7 @@ Consider three consecutive numbers such as **a**, **b**, **c**. **b** is a local
 | 6 1 10      | -          | 8                  |
 | 1 10 3      | 10         | 10                 |
 
-So, the function is supposed to set 10 to the addressed pointed by **ptr_to_greatest** and return 2. 	
+So, the function is supposed to set 10 to the addressed pointed by **ptr_to_greatest** and return 3. 	
 
 | Sequence         | Return | *ptr_to_greatest   |
 | ---------------- | ------ | ------------------ |
