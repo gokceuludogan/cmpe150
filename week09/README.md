@@ -13,7 +13,7 @@
 - In order to access to a particular location, i.e., an element within the array, we specify the name of the array and the position number (index) of the variable in square brackets.
 
   - arrName[3]
-- Indices start from 0 and 
+- Indices start from 0 and size -1
 
 ### Examples: 
 
@@ -32,7 +32,7 @@ int main()
 
 - The above code allocates memory space for 10 integer data values. Indices starts from 0. Also, be aware of that, these elements are not initialized, so that we don't know their values.
 
-<img src="C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1588599881804.png" alt="1588599881804" style="zoom:50%;" />
+<img src="figures/1588599881804.png" alt="1588599881804" style="zoom:50%;" />
 
 
 
@@ -51,7 +51,7 @@ int main()
 }
 ```
 
-<img src="C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1588599907830.png" alt="1588599907830" style="zoom:50%;" />
+<img src="figures/1588599907830.png" alt="1588599907830" style="zoom:50%;" />
 
 
 
@@ -73,7 +73,7 @@ int main()
 }
 ```
 
-<img src="C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1588599935727.png" alt="1588599935727" style="zoom:50%;" />
+<img src="figures/1588599935727.png" alt="1588599935727" style="zoom:50%;" />
 
 
 
@@ -89,12 +89,14 @@ int main()
 int main()
 {
     int digit[10] = {0,1,2,3,4,5,6,7,8,9};
+    
+
 
     return 0;
 }
 ```
 
-<img src="C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1588600212155.png" alt="1588600212155" style="zoom:50%;" />
+<img src="figures/1588600212155.png" alt="1588600212155" style="zoom:50%;" />
 
 ------
 
@@ -113,7 +115,7 @@ int main()
 
 - Then the uninitialized elements will be automatically initialized to 0 (zero).
 
-<img src="C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1588600148394.png" alt="1588599975298" style="zoom:50%;" />
+<img src="figures/1588600148394.png" alt="1588599975298" style="zoom:50%;" />
 
 <br>
 
@@ -136,7 +138,7 @@ int main()
 }
 ```
 
-<img src="C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1588600071903.png" alt="1588600071903" style="zoom:50%;" />
+<img src="figures/1588600071903.png" alt="1588600071903" style="zoom:50%;" />
 
 <br>
 
@@ -159,7 +161,7 @@ int main()
 }
 ```
 
-<img src="C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1588600093625.png" alt="1588600093625" style="zoom:50%;" />
+<img src="figures/1588600093625.png" alt="1588600093625" style="zoom:50%;" />
 
 
 
@@ -203,6 +205,15 @@ Then decrypt this sentence by adding -1 to each character, and print the decrypt
 | 5<br />3 1 -4 5 2     | 2 5 -4 1 3     |
 | 6<br />15 7 2 89 8 12 | 12 8 89 2 7 15 |
 
+<details><summary>Procedure</summary>
+<p>Let's say we have a array with length 7. Indices 0, 1, 2, 3, 4, 5, 6 </p>
+<p>We should swap the elements at index</p>
+<p>    0, 6 </p>
+<p>    1, 5</p>
+<p>    2, 4</p>
+<p>Pattern: i, size - i - 1    </p>
+</details>
+
 ## Question 4 (Teaching Codes Lab7)
 
 Write a program which reads two integers: N and M from the user. Then the program should read N more integers, then M more integers from the user. Assume N < M < 50.
@@ -214,6 +225,16 @@ If the first combination of N integers appears at least once in the second combi
 | 4 12<br/>4 5 6 5<br/>1 2 1 2 99 99 4 5 6 5 9 9 | 6      |
 | 3 5<br/>2 2 2<br/>1 2 2 2 5                    | 1      |
 | 3 5<br/>2 3 2<br/>1 2 2 2 5                    |        |
+
+<details><summary>Procedure</summary>
+<p>We must traverse the second array for the first array.  </p>
+<p>Starting from each element of the second array, traverse the first array.  </p>
+ <p>First array variable: i, Second array variable j </p>
+ <p>j = 0, i = 0, 1, ..., N: compare i vs j+i: 0, 1, ..., N of second array </p>
+ <p>j = 1, i = 0, 1, ..., N: compare i vs j+i: 1, ..., N+1 of second array   </p>
+ <p>...   </p>  
+ <p>j = M -N, i = 0, 1, ..., N: compare i vs j+i </p>
+</details>
 
 ## Question 5 
 
@@ -241,9 +262,9 @@ Write a program which reads an integer N from the user, then reads N integers fr
 
 Write a program which reads an integer N from the user, then reads N integers from the user to an array. Then modify the array so that it contains exactly the same numbers as the given array, but rearranged so that every 3 is immediately followed by a 4. Do not move the 3's, but every other number may move. The array contains the same number of 3's and 4's, every 3 has number after it that is not a 3, and a 3 appears in the array before any 4.
 
-| Input           | Output        |
-| --------------- | ------------- |
-| 4 1 3 1 4       | 1 3 4 1       |
-| 7 1 3 1 4 4 3 1 | 1 3 4 1 1 3 4 |
-| 4 3 2 2 4       | 3 4 2 2       |
+| Input                 | Output        |
+| --------------------- | ------------- |
+| 4 <br />1 3 1 4       | 1 3 4 1       |
+| 7 <br />1 3 1 4 4 3 1 | 1 3 4 1 1 3 4 |
+| 4<br />3 2 2 4        | 3 4 2 2       |
 
