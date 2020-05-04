@@ -1,9 +1,167 @@
 # Week 9 - Arrays
 
-<details><summary>Brief Summary</summary>
-    <p><img src='https://raw.githubusercontent.com/hkmztrk/CMPE150/5a68414c5a77b913cd253a240b734e594b25e8f3/week09/W09_01.PNG'/></p>
-<p><img src='https://raw.githubusercontent.com/hkmztrk/CMPE150/5a68414c5a77b913cd253a240b734e594b25e8f3/week09/W09_02.PNG'/></p>
-<p><img src='https://raw.githubusercontent.com/hkmztrk/CMPE150/5a68414c5a77b913cd253a240b734e594b25e8f3/week09/W09_03.PNG'/></p> </details>
+## Brief Summary
+
+
+- An array is a group of memory locations.
+- These locations are related by the fact that they have all the **same name** and **same type**.
+- We can define an array as follows:
+  - type arrName[size];
+    - Where, **type** is any data type like **int**, **float** etc. 
+    - **arrName** is the name of the array variable.
+    - The square brackets contains an integer value **size**. It is the total number of values we can store in the array variable.
+- In order to access to a particular location, i.e., an element within the array, we specify the name of the array and the position number (index) of the variable in square brackets.
+
+  - arrName[3]
+- Indices start from 0 and 
+
+### Examples: 
+
+- We want to create an array named **digit** of size **10** and type as **int**.
+
+```c 
+#include <stdio.h>
+
+int main()
+{
+    int digit[10];
+
+    return 0;
+}
+```
+
+- The above code allocates memory space for 10 integer data values. Indices starts from 0. Also, be aware of that, these elements are not initialized, so that we don't know their values.
+
+<img src="C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1588599881804.png" alt="1588599881804" style="zoom:50%;" />
+
+
+
+* We can assign values directly to each element of the array:
+
+```c 
+#include <stdio.h>
+
+int main()
+{
+    int digit[10];
+
+    digit[3] = 123;
+
+    return 0;
+}
+```
+
+<img src="C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1588599907830.png" alt="1588599907830" style="zoom:50%;" />
+
+
+
+------
+
+- We can read values from the user and store them in the array:
+
+```c 
+#include <stdio.h>
+
+int main()
+{
+    int digit[10];
+
+    scanf("%d", &digit[5]); // Assume user enters 13
+    digit[0] = digit[5] * 2;
+
+    return 0;
+}
+```
+
+<img src="C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1588599935727.png" alt="1588599935727" style="zoom:50%;" />
+
+
+
+<br>
+
+------
+
+- Now, let's initialize our digit array with digits from 0 to 9 to:
+
+```c 
+#include <stdio.h>
+
+int main()
+{
+    int digit[10] = {0,1,2,3,4,5,6,7,8,9};
+
+    return 0;
+}
+```
+
+<img src="C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1588600212155.png" alt="1588600212155" style="zoom:50%;" />
+
+------
+
+- What if we don't initialize all the elements of the array:
+
+```c 
+#include <stdio.h>
+
+int main()
+{
+    int digit[10] = {0,1,2,3,4};
+
+    return 0;
+}
+```
+
+- Then the uninitialized elements will be automatically initialized to 0 (zero).
+
+<img src="C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1588600148394.png" alt="1588599975298" style="zoom:50%;" />
+
+<br>
+
+------
+
+- Now, let's assign digits from 0 to 9 to the corresponding locations in our digit array with a loop:
+
+```c 
+#include <stdio.h>
+
+int main()
+{
+    int i;
+    int digit[10];
+
+    for(i = 0; i < 10; i++)
+        digit[i] = i;
+
+    return 0;
+}
+```
+
+<img src="C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1588600071903.png" alt="1588600071903" style="zoom:50%;" />
+
+<br>
+
+------
+
+- We can assign values to an array form the user with a for loop:
+
+```c 
+#include <stdio.h>
+
+int main()
+{
+    int i;
+    int digit[10];
+
+    for(i = 0; i < 10; i++)
+        scanf("%d", &digit[i]); // Assume the user enters 1 3 5 7 9 11 13 15 17 19
+
+    return 0;
+}
+```
+
+<img src="C:\Users\gokce\AppData\Roaming\Typora\typora-user-images\1588600093625.png" alt="1588600093625" style="zoom:50%;" />
+
+
 
 ## Question 1 (Teaching Codes PS11)
 
@@ -88,3 +246,4 @@ Write a program which reads an integer N from the user, then reads N integers fr
 | 4 1 3 1 4       | 1 3 4 1       |
 | 7 1 3 1 4 4 3 1 | 1 3 4 1 1 3 4 |
 | 4 3 2 2 4       | 3 4 2 2       |
+
