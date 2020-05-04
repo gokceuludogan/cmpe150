@@ -54,7 +54,7 @@ Bogazici University, CMPE150 (Introduction to Computing C)
 
 * Arrays
 
-### [Weeek 10](https://github.com/sb-b/cmpe150-spring2020/tree/master/Week10/)
+### [Week 10](https://github.com/sb-b/cmpe150-spring2020/tree/master/Week10/)
 
 * Passing arrays to functions
 * Multidimensional arrays
