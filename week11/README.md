@@ -106,8 +106,8 @@ int main(){
     	char s4[] = "12345678";
     
     	strcpy(s1, s2);
-        strcpy(s3, s1+4);
-        strncpy(s4, s1+4, 2);
+    	strcpy(s3, s1+4);
+    	strncpy(s4, s1+4, 2);
     	printf("s1: %s\n", s1);
     	printf("s2: %s\n", s2);
     	printf("s3: %s\n", s3);
@@ -187,7 +187,7 @@ input: count the total number of words in a string 3
 output: total
 ```
 
-**b. **Write a program which takes a string and an integer n as parameters and deletes the nth word in the string. 
+**b.** Write a program which takes a string and an integer n as parameters and deletes the nth word in the string. 
 
 ```
 input: count the total number of words in a string. 3
@@ -195,6 +195,7 @@ output: count the number of words in a string.
 ```
 
 <details><summary>Figure</summary><img src="q4_1.png"/></details>
+
 ### Question 5
 
 **a.** Write a program to find maximum occurring character in a string assume all characters in lowercase.
