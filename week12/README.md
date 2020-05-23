@@ -38,6 +38,17 @@ Create a one dimensional array in the main function and initialize it with some 
 | ------------------------------------------------------------ |
 | 1 0x7ffee72153c0<br /> 2 0x7ffee72153c4<br /> 3 0x7ffee72153c8<br /> 4 0x7ffee72153cc<br /> 5 0x7ffee72153d0 |
 
+<details><summary>Arrays and pointers*</summary>
+    <p>the address of &x[0] and x is the same. It's because the variable name x points to the first element of the array.</p>
+    <img src="https://cdn.programiz.com/sites/tutorial2program/files/array-pointers.jpg"/>
+    <p>
+        <bold>&x[0]</bold> is equivalent to <bold>x</bold>. And, <bold>x[0]</bold> is equivalent to <bold>*x</bold>.
+    </p>
+    <p>
+        <bold>&x[i]</bold> is equivalent to <bold>x+i</bold> and <bold>x[i]</bold> is equivalent to <bold>*(x+i)</bold>
+    </p>
+    </details>
+
 ## Question 4 - Shift the Array
 
 Write a function called **rightShiftA()** that takes the size of the array (N), an integer array (arr) and an integer variable (T) as parameters. The function right shifts the array T times.
@@ -53,10 +64,20 @@ Write a proper main function to see the effect of **rightShiftA()**.
 
 Given a 4x4 matrix consisting of * and lowercase English alphabets, the task is to find the character which has the maximum number of * around it (including diagonal elements too). If two characters have same maximum count, print lexicographically smallest character.
 
-| Input                                                       | Output |
-| ----------------------------------------------------------- | ------ |
-| b\*\*\* <br/>\*\*c\*       <br/>\*a\*\*       <br/>\*\*\*d  | a      |
-| \*r\*\*      <br/>maz\*       <br/>l\*fk       <br/>\*\*\*d | f      |
+| Input                                                      | Output |
+| ---------------------------------------------------------- | ------ |
+| b\*\*\* <br/>\*\*c\*       <br/>\*a\*\*       <br/>\*\*\*d | a      |
+| \*r\*\*      <br/>maz\*       <br/>l\*fk <br/>\*\*\*d      | f      |
+
+* Array after reading
+
+  * 000000
+
+    0xxxx0
+    0xxxx0
+    0xxxx0
+    0xxxx0
+    000000
 
 ## Question 6 - Put My Words
 
@@ -84,3 +105,6 @@ Write a program that takes a string from the user and removes the characters the
 | h3ll0 w0r1d! | hllwrd |
 | 2020 may 19  | may    |
 
+## References
+
+* https://www.programiz.com/c-programming/c-pointers-arrays
