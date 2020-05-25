@@ -63,3 +63,12 @@ Bogazici University, CMPE150 (Introduction to Computing C)
 
 * Strings
 
+### [Week 12](week12/)
+
+* Arrays, Strings, Multidimensional arrays
+
+### [Week 13](week13/)
+
+* Structs
+
+
