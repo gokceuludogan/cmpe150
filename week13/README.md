@@ -44,7 +44,7 @@ Write a program which takes an integer N and  reads N points (given by their x a
 
 ### Question 4
 
-Define a **struct** representing a student having **student_id (integer), mt_grade (integer), final_grade (integer) and letter_grade (char)**. The given program takes the grades of students and creates structs for students. You are supposed to calculate and set the letter grades of students using **set_grade() function**. The grade weights are 40%, 60% respectively and letter grades are as follows:
+Define a **struct** representing a student having **student_id, mt_grade, final_grade and letter_grade **. The given program takes the grades of students and creates structs for students. You are supposed to calculate and set the letter grades of students using **set_grade() function**. The grade weights are 40%, 60% respectively and letter grades are as follows:
 
 - 100-75: A
 - 74-50: B
@@ -55,7 +55,7 @@ Define a **struct** representing a student having **student_id (integer), mt_gra
 #include <stdio.h>
 #include <stdlib.h>
 
-// Fills the definition of the struct.
+// Fill the definition of the struct.
 typedef struct{
 	
 } Student;
@@ -64,7 +64,7 @@ void set_grade(Student *p){
 
 }
 
-int main(void){
+int main(){
 	int N;
 	scanf("%d", &N);
 	Student cmpe150_students[N];
@@ -113,5 +113,5 @@ Write a program which takes an integer N and then reads N flights. Then sorts th
 
 Define a struct named: Person which has an age, and a salary. Define a struct named: Family which has up to 9 persons and personCount (integer).
 
-Write a function which takes 3 families, and returns the age of the person who earns the most in the family with the least total salary. (age of the richest person in the poorest family)
+Write a program which takes 3 families, and returns the age of the person who earns the most in the family with the least total salary. (age of the richest person in the poorest family)
 
