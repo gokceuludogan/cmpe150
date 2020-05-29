@@ -281,4 +281,131 @@ int main() {
 
 # Question 6
 
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+typedef struct{
+	int flight_no;
+	char orig[4];
+	char dest[4];
+	int start;
+	int end;
+} Flight_t;
+
+Flight_t read_flight(){
+	Flight_t fl;
+	scanf("%d %s %s %d %d", &fl.flight_no, fl.orig, fl.dest, &fl.start, &fl.end);
+	return fl;
+}
+
+void print_flight(Flight_t f){
+	printf("%d %s %s %d %d\n", f.flight_no, f.orig, f.dest, f.start, f.end);
+}
+
+int compare_flights(Flight_t f1, Flight_t f2){
+	if(f1.start == f2.start){
+		return strcmp(f1.orig, f2.orig);
+	}else{
+		return f1.start - f2.start;
+	}
+}
+
+int main() {
+	int N, i, j;
+	scanf("%d", &N);
+	Flight_t flights[N];
+	for(i = 0; i < N; i++){
+		flights[i] = read_flight();
+	}
+
+	for(i = 0; i < N; i++){
+		for(j = i+1; j < N; j++){
+			if(compare_flights(flights[i], flights[j]) > 0){
+				Flight_t temp = flights[i];
+				flights[i] = flights[j];
+				flights[j] = temp;
+			}
+		}
+	}
+
+	for(i=0; i < N; i++){
+		print_flight(flights[i]);
+	}
+
+	return 0;
+}
+
+```
+
 # Question 7
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Person{
+	int age;
+	int salary;
+};
+
+typedef struct Family{
+	struct Person persons[9];
+	int personCount;
+} Fam_t;
+
+int poorest_family(Fam_t f[], int size){
+	int min_salary;
+	int i, j, index = -1;
+	for(i = 0; i < size; i++){
+		int total = 0;
+		for(j = 0; j < f[i].personCount; j++){
+			total += f[i].persons[j].salary;
+		}
+		if(i == 0){
+			min_salary = total;
+		}else if(total < min_salary){
+			min_salary = total;
+			index = i;
+		}
+	}
+	return index;
+}
+
+int richest_member(struct Family f){
+	int i, max = 0, index = -1;
+	for(i = 0; i < f.personCount; i++){
+		if(f.persons[i].salary > max){
+			max = f.persons[i].salary;
+			index = i;
+		}
+	}
+	return index;
+}
+
+/*
+SAMPLE INPUT
+3
+10 0 33 5000 34 5500
+5
+10 10 30 1100 45 500 67 1000 5 0
+2
+48 4800 50 5000
+*/
+int main() {
+	struct Family families[3];
+	int i, j;
+	for(i = 0; i < 3; i++){
+		scanf("%d", &families[i].personCount);
+		for(j = 0; j < families[i].personCount; j++){
+			scanf("%d%d", &families[i].persons[j].age, &families[i].persons[j].salary);
+		}
+	}
+	int poorest = poorest_family(families, 3);
+	int richest = richest_member(families[poorest]);
+	printf("Richest person in the poorest family is %d years old.\n", families[poorest].persons[richest].age);
+	return 0;
+}
+```
+
